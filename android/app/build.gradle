@@ -6,7 +6,7 @@ android {
         applicationId "com.instanttestprep.mpjeny"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 2030
+        versionCode 2031
         versionName "2.0.31"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
