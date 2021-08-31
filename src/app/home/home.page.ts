@@ -30,7 +30,7 @@ export class HomePage implements OnInit {
   constructor(private iab: InAppBrowser) { }
 
   async ngOnInit() {
-    const url = 'https://mpjeny.instanttestprep.com/';
+    const url = 'https://mpjefl.instanttestprep.com/';
     const browser = this.iab.create(url, '_blank', this.options);
   }
 }
