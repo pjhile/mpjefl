@@ -1,1 +1,6 @@
-{}
+{
+	"appId": "io.ionic.starter",
+	"appName": "MPJE Test Prep",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

@@ -30,7 +30,7 @@ export class HomePage implements OnInit {
   constructor(private inBrowser: InAppBrowser) {}
 
   async ngOnInit() {
-    const url = 'https://mpjefl.instanttestprep.com';
+    const url = 'https://ITP_URL';
     const browser = this.inBrowser.create(url, '_self', this.options);
   }
 
