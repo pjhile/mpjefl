@@ -31,7 +31,7 @@ export class HomePage implements OnInit {
 
   async ngOnInit() {
     const url = 'https://mpjefl.instanttestprep.com';
-    const browser = this.inBrowser.create(url, '_self', this.options);
+    const browser = this.inBrowser.create(url, '_blank', this.options);
   }
 
 }
