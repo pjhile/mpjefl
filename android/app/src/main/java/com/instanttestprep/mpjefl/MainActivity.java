@@ -1,4 +1,4 @@
-package mpjefl.instanttestprep.com;
+package com.instanttestprep.mpjefl;
 
 import com.getcapacitor.BridgeActivity;
 
