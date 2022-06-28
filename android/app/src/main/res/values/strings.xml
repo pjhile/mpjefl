@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">MPJE FL</string>
-    <string name="title_activity_main">MPJE FL</string>
-    <string name="package_name">com.instanttestprep.mpjefl</string>
-    <string name="custom_url_scheme">com.instanttestprep.mpjefl</string>
+    <string name="app_name">testing</string>
+    <string name="title_activity_main">testing</string>
+    <string name="package_name">io.ionic.starter</string>
+    <string name="custom_url_scheme">io.ionic.starter</string>
 </resources>

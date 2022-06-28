@@ -8,29 +8,30 @@ import { InAppBrowser, InAppBrowserOptions } from '@ionic-native/in-app-browser/
 })
 export class HomePage implements OnInit {
 
-  options : InAppBrowserOptions = {
-    location : 'no',//Or 'no' 
+  options: InAppBrowserOptions = {
+    location : 'no',//Or 'no'
     hidden : 'no', //Or  'yes'
     clearcache : 'yes',
     clearsessioncache : 'yes',
-    zoom : 'no',//Android only ,shows browser zoom controls 
+    zoom : 'no',//Android only ,shows browser zoom controls
     hardwareback : 'yes',
     mediaPlaybackRequiresUserAction : 'no',
-    shouldPauseOnSuspend : 'no', //Android only 
+    shouldPauseOnSuspend : 'no', //Android only
     closebuttoncaption : 'Close', //iOS only
-    disallowoverscroll : 'no', //iOS only 
-    toolbar : 'no', //iOS only 
-    enableViewportScale : 'no', //iOS only 
-    allowInlineMediaPlayback : 'no',//iOS only 
-    presentationstyle : 'fullscreen',//iOS only 
+    disallowoverscroll : 'no', //iOS only
+    toolbar : 'no', //iOS only
+    enableViewportScale : 'no', //iOS only
+    allowInlineMediaPlayback : 'no',//iOS only
+    presentationstyle : 'fullscreen',//iOS only
     fullscreen : 'yes',//Windows only
     // usewkwebview: 'yes',
   };
 
-  constructor(private iab: InAppBrowser) { }
+  constructor(private inBrowser: InAppBrowser) {}
 
   async ngOnInit() {
-    const url = 'https://mpjefl.instanttestprep.com/';
-    const browser = this.iab.create(url, '_blank', this.options);
+    const url = 'https://mpjefl.instanttestprep.com';
+    const browser = this.inBrowser.create(url, '_self', this.options);
   }
+
 }

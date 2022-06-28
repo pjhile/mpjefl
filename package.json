@@ -1,8 +1,8 @@
 {
-  "name": "mpje-florida-test-prep",
-  "version": "2.0.34",
-  "author": "Instant Test Prep LLC",
-  "homepage": "https://instanttestprep.com/",
+  "name": "testing",
+  "version": "0.0.1",
+  "author": "Ionic Framework",
+  "homepage": "https://ionicframework.com/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -20,17 +20,15 @@
     "@angular/platform-browser": "~13.2.2",
     "@angular/platform-browser-dynamic": "~13.2.2",
     "@angular/router": "~13.2.2",
-    "@capacitor/android": "^2.5.0",
+    "@capacitor/android": "^3.6.0",
     "@capacitor/app": "1.1.1",
-    "@capacitor/core": "^2.5.0",
+    "@capacitor/core": "^3.4.3",
     "@capacitor/haptics": "1.1.4",
-    "@capacitor/ios": "^2.5.0",
+    "@capacitor/ios": "^3.6.0",
     "@capacitor/keyboard": "1.2.2",
     "@capacitor/status-bar": "1.0.8",
     "@ionic-native/core": "^5.36.0",
     "@ionic-native/in-app-browser": "^5.36.0",
-    "@ionic-native/splash-screen": "^5.36.0",
-    "@ionic-native/status-bar": "^5.36.0",
     "@ionic/angular": "^6.0.0",
     "cordova-plugin-inappbrowser": "^5.0.0",
     "rxjs": "~6.6.0",
@@ -71,5 +69,5 @@
     "ts-node": "~8.3.0",
     "typescript": "~4.4.4"
   },
-  "description": "MPJE Florida Test Prep"
+  "description": "An Ionic project"
 }

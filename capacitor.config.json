@@ -1,13 +1,6 @@
 {
-  "appId": "com.instanttestprep.mpjefl",
-  "appName": "MPJE Test Prep",
-  "bundledWebRuntime": false,
-  "npmClient": "npm",
-  "webDir": "www",
-  "plugins": {
-    "SplashScreen": {
-      "launchShowDuration": 0
-    }
-  },
-  "cordova": {}
+	"appId": "io.ionic.starter",
+	"appName": "testing",
+	"webDir": "www",
+	"bundledWebRuntime": false
 }
